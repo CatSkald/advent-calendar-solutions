@@ -1,7 +1,7 @@
 module Main where
   
-import Data.List.Split
 import Data.List
+import Data.List.Split
 
 makeInteger :: [String] -> [Int]
 makeInteger = map read
